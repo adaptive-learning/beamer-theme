@@ -1,6 +1,6 @@
 DEST_DIR=/usr/share/texmf/tex/latex/beamer/base/themes/theme
 SOURCE_DIR=theme
-TO_COPY=beamerthemeProso.sty proso-logo.png proso-logo-small.png
+TO_COPY=beamerthemeProso.sty beamerthemeProsoLight.sty  proso-logo.png proso-logo-small.png
 
 build.example:
 	cd example; pdflatex example.tex; \
